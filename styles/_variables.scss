@@ -1,0 +1,27 @@
+$heading-font-family: 'Red Hat Display', sans-serif;
+$body-font-family: 'Lato', sans-serif;
+$base-font-size: 16px;
+$base-font-weight: 400;
+
+$primary-color: #000;
+$accent-color: #565656;
+$secondary-color: #7B7B7B;
+
+body{
+    font-family: $heading-font-family;
+    font-size: $base-font-size;
+    color:$primary-color;
+    border-color: $accent-color;
+
+}
+
+h5, p{
+    color: $secondary-color;
+}
+
+svg{
+
+    fill:$accent-color;
+
+}
+    
